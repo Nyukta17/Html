@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(39, 32, 32);
+}
+.title
+{
+    color: red;
+    position: :sticky;
+    text-align: center;
+    font-size: 100px;
+}
+.head, td
+{
+    border-spacing: 50px;
+    position: :static;
+    margin: auto;
+    text-align: :left; 
+}
+.right
+{
+    font-size: 25px;
+    margin:0;
+    float: right;
+    color: gold;
+    
+}
+.left
+{
+    font-size: 25px;
+    margin: 0;
+    float: left;
+    color: red;
+    
+}
+img
+{
+    margin:0px;
+    border-radius: 30px;
+    
+    width:300px;
+    height: 300px; 
+  
+    border:1px solid #555;
+    
+    
+    
+}
+.img_hover
+{
+    width: 100px;
+        padding: -100px;
+        
+}
+.img_hover:hover
+{
+    
+    box-shadow:0 0 15px #00aaff;
+        border:1px solid #00aaff;
+        border-radius: 30px;
+}
+.scroll_box
+{
+    max-width: 900px;
+    margin: auto;
+    max-height: 1400px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.scroll_box::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+
